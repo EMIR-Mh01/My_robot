@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>my_robot_description</name>
+  <version>0.0.1</version>
+  <description>URDF description of a custom mobile robot with LiDAR and two cameras</description>
+
+  <maintainer email="ubuntu@todo.todo">ubuntu</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Required for processing .xacro files -->
+  <exec_depend>xacro</exec_depend>
+
+  <!-- Optional: add if you're using RViz -->
+  <exec_depend>rviz2</exec_depend>
+
+  <!-- Optional: add if you use Gazebo -->
+  <exec_depend>gazebo_ros</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
