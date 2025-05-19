@@ -14,7 +14,7 @@ It visualizes the robot structure, frames (TFs), and any sensors defined in the 
 ✅ 2. Launch robot in Gazebo simulation environment
 
 ros2 launch my_robot_description robot_gazebo.launch.py world:=./src/my_robot_description/world/world_test.world use_sim:=true
-📝 Description:
+
 This command starts the robot in the Gazebo simulation environment, loading the custom world world_test.world.
 The use_sim:=true flag ensures that ROS nodes use the simulation clock instead of the real-time system clock.
 It’s the first step for testing SLAM or navigation in a virtual environment.
